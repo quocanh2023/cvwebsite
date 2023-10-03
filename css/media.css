@@ -1,0 +1,54 @@
+@media screen and (max-width: 1234px) {
+  #banner {
+    height: 45vw;
+  }
+}
+
+/* ------------------------------------------ */
+
+@media screen and (max-width: 1024px) {
+  .project-inf {
+    padding: 1.6rem 0.4rem;
+  }
+
+  .year {
+    font-size: 1.4rem;
+  }
+
+  .cv {
+    margin-left: 1.6rem;
+    column-gap: 1rem;
+  }
+}
+
+/* --------------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+
+  .cv {
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  #banner {
+    height: 40vw;
+  }
+
+  .year {
+    font-size: 1.2rem;
+  }
+  .cv {
+    margin-left: 0.6rem;
+  }
+  .cv p {
+    font-size: 1.4rem;
+  }
+  .cv i {
+    margin-left: 0.2rem;
+  }
+
+  td {
+    font-size: 1.4rem;
+  }
+}
+
+

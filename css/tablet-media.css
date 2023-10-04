@@ -1,0 +1,172 @@
+/* ------------------------TABLET--------------------------- */
+
+@media screen and (max-width: 991px) {
+
+    #nav-bar .nav-center {
+      width: 5rem;
+      border: none;
+    }
+  
+    .navbar-box .nav-center  p{
+    font-size: 0px;
+        }
+  
+    .navbar-box .nav-center   span{
+          font-size: 0px;
+              }
+  
+    .navbar-box ul li {
+      width: 15rem;
+      padding: 0.6rem 1rem;
+      border:solid ;
+      border-color: #ddd;
+      border-width: 0px 1px;
+      
+      }
+    
+      .nav-left {
+        border-left: solid 1px #ddd;
+      }
+      
+      .nav-right {
+        border-right: solid 1px #ddd;
+      }
+      
+  
+    .cv {
+      flex-direction: column;
+      margin-left: 1rem;
+    }
+    #banner {
+      height: 40vw;
+    }
+  
+    .year {
+      font-size: 1.2rem;
+    }
+    .cv {
+      margin-left: 0.6rem;
+    }
+    .cv p {
+      font-size: 1.4rem;
+    }
+    .cv i {
+      margin-left: 0.2rem;
+    }
+  
+    td {
+      font-size: 1.4rem;
+    }
+
+    .hobby-content {
+      flex-wrap: wrap;
+    }
+  
+
+    .hobby-content p {
+      padding: 0;
+      font-size: 1.6rem;
+      flex: none;
+      gap: 1rem;
+      margin: 0rem 0rem 2rem 0rem;
+      width: 33%;
+    }
+  
+    .hobby-icon {
+      font-size: 2.8rem;
+      width: 6rem;
+      height: 6rem;
+    }
+  }
+  
+  /* ------------------------------------------------- */
+  
+  @media screen and (max-width: 912px) {
+    .project-inf {
+      padding: 1.6rem 0.4rem;
+    }
+   
+      .icon {
+      font-size: 1.4rem;
+    }
+  }
+  
+  /* ------------------------------------------------- */
+  
+  @media screen and (max-width: 845px) {
+  
+    #banner span {
+      font-size: 0.8rem;
+    }
+    #banner h1 {
+      margin-bottom: 0;
+    }
+  }
+  
+  /* ---------------------------------------------------- */
+  
+  @media screen and (max-width: 820px) {
+  
+    .navbar-box ul li a {
+      text-decoration: none;
+    }
+  
+   
+    .section-title {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+  
+    #personal-info .info li,
+    span {
+      font-size: 1.8rem;
+    }
+  
+    #project .row .col-md-4 {
+      margin-bottom: 2rem;
+    }
+  
+    .project-inf {
+      padding: 1.6rem 0.4rem;
+    }
+  
+    .cv {
+      font-size: 1rem;
+      margin-left: 0.8rem;
+    }
+  
+    .my-3 p {
+      font-size: 1.4rem;
+    }
+  
+  
+  
+    td {
+      padding: 0.8rem 0.4rem 0.8rem 0.5rem;
+    }
+    #banner {
+      height: 40vw;
+    }
+  
+    .year {
+      display: inline-block;
+      font-size: 1.2rem;
+      padding: 0.4rem 1rem;
+      margin: 0rem 0.2rem;
+    }
+  }
+  
+  /* ------------------------------------------------ */
+  
+  @media screen and (max-width:767px){
+    
+    .hobby-icon {
+      font-size: 2.2rem;
+      width: 5rem;
+      height: 5rem;
+    }
+
+    #job-info .container p {
+      font-size: 1.6rem;
+  }
+  }
